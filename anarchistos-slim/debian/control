@@ -1,0 +1,13 @@
+Source: anarchistos-slim
+Section: misc
+Priority: extra
+Maintainer: AreYouLoco? <areyouloco@paranoici.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://www.anarchistos.tk
+
+Package: anarchistos-slim
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, rpl, tar, slim, anarchistos-slim-theme
+Description: AnarchistOS user set-up hack.
+ Contains scripts for use with AnarchistOS.
